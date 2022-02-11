@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        #cont p {
+            border: 2px solid grey;
+            background-color: red;
+        }
+        
+        #btn {
+            border: 2px solid black;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="cont">
+        <h1>this is a heading</h1>
+        <div id="next">
+            <p id="para">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, explicabo nobis. Officia magni saepe illo voluptatum! Quasi sed aut eum inventore, sit consectetur dolores quis quidem exercitationem, accusantium vitae unde animi debitis, harum excepturi?
+            </p>
+        </div>
+        <button id="btn" onclick="toggle()">Show/Hide</button>
+    </div>
+    <script>
+        para.addEventListener("mouseout", function run() {
+
+            console.log("Mouse is out ")
+
+        });
+        para.addEventListener("mouseover", function run() {
+            console.log("mouse in");
+        });
+        btn.addEventListener("click", function run() {
+            console.log("clicked")
+        });
+
+
+
+        function toggle() {
+            let btn = document.getElementById('btn');
+            let para = document.getElementById('para')
+            if (para.style.display != "none") {
+                para.style.display = "none";
+            } else {
+                para.style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+</html>

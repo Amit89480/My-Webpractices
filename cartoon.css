@@ -1,0 +1,79 @@
+body {
+    width: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.left {
+    display: inline-block;
+    position: relative;
+    top: 19px;
+    left: 14px;
+    list-style: none;
+}
+
+.mid {
+    display: block;
+    width: 33%;
+    margin: 12px auto;
+    position: absolute;
+    top: 17px;
+    right: 517px;
+}
+
+.right {
+    display: inline-block;
+    height: 27px;
+    width: 53px;
+    position: absolute;
+    right: 60px;
+    top: 23px;
+}
+
+.mid .cartoon li {
+    display: inline-block;
+    font-size: 17px;
+}
+
+.mid li a {
+    color: white;
+    text-decoration: none;
+    padding: 9px
+}
+
+.mid li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+li a.active {
+    color: darkslategrey;
+    text-decoration: underline;
+}
+
+.left img {
+    width: 201px;
+    filter: invert(100%);
+}
+
+.btn {
+    padding: 34px 2x;
+    width: 107px;
+    height: 33px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 12px;
+}
+
+.btn:hover {
+    color: darkgoldenrod;
+}
+
+.start {
+    border: 221px;
+    height: 144px;
+    width: 144px;
+    padding: 72px;
+    font-size: 16px;
+    border-radius: 15px;
+}
